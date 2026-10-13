@@ -30,3 +30,27 @@ let myObj={
 
  //datatype or returntype of all the primitive type is function 
  //and reutnr of function is called as function object
+
+
+
+
+ //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ //Stack(primitive)-->whaterver or whichever varibale we are declaring we are gettiing the copy of it,Heap(Non-Primitive)-->decalring any object or  variable we are gettingg the rrefrence of the original value
+
+ let myYoutubename="rutujakuthe.com"
+ let anothername=myYoutubename
+ anothername="chaiaurcode"
+ console.log(myYoutubename);
+ console.log(anothername);
+ 
+ let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+ }
+ let userTwo=userOne
+ userTwo.email="rutuja@google.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
